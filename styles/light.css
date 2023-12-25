@@ -1,12 +1,30 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 .page.theme_light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --text: var(--accent-color);
+  --title: var(--accent-color);
+  --accent-color: #353430;
+  --logo-text: #FFC2E6;
+  --cover: url(../images/cover-image-light.png);
+  .rec {
+    display: none;
+  }
+
+  .title-decor {
+    --accent-color: #ff8dcb;
+  }
+}
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --text: var(--accent-color);
+    --title: var(--accent-color);
+    --accent-color: #353430;
+    --logo-text: #FFC2E6;
+    --cover: url(../images/cover-image-light.png);
+  }  
+
+  .title-decor {
+    --accent-color: #ff8dcb;
+  }
 }

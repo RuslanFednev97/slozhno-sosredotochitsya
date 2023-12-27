@@ -5,12 +5,13 @@
   --logo-text: #DB00FF;
   --cover: url(../images/cover-image-dark.png);
   --bk-color: #00183F;
+  --hover-outline: rgba(255, 0, 112, 0.40);
 
   .rec {
     display: block;
   }
 
-  .title-decor, .header_logo {
+  .title-decor, .header__logo {
     --accent-color: #FF0070;
   }
 }

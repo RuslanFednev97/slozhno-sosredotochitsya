@@ -5,4 +5,5 @@
   --logo-text: #DB00FF;
   --cover: url(../images/cover-image-dark.png);
   --bk-color: #00183F;
+  --hover-outline: rgba(255, 0, 112, 0.40);
 }

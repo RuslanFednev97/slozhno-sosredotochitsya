@@ -5,12 +5,13 @@
   --logo-text: #FFC2E6;
   --cover: url(../images/cover-image-light.png);
   --bk-color: #FFF1F7;
+  --hover-outline: rgba(50, 49, 45, 0.40);
 
   .rec {
     display: none;
   }
 
-  .title-decor, .header_logo {
+  .title-decor, .header__logo {
     --accent-color: #ff8dcb;
   }
 }
@@ -24,13 +25,14 @@
     --logo-text: #FFC2E6;
     --cover: url(../images/cover-image-light.png);
     --bk-color: #FFF1F7;
+    --hover-outline: rgba(50, 49, 45, 0.40);
   }  
-
+  
   .rec {
     display: none;
   }
 
-  .title-decor, .header_logo {
+  .title-decor, .header__logo {
     --accent-color: #ff8dcb;
   }
 }

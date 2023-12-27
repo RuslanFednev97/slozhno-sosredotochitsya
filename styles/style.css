@@ -4,7 +4,8 @@
   font-size: 18px;
   font-style: normal;
   display: grid;
-  background-image:var(--cover);
+  background-color: var(--bk-color);
+  background-image: var(--cover);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

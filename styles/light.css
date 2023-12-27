@@ -4,6 +4,7 @@
   --accent-color: #353430;
   --logo-text: #FFC2E6;
   --cover: url(../images/cover-image-light.png);
+  --bk-color: #FFF1F7;
 
   .rec {
     display: none;
@@ -22,6 +23,7 @@
     --accent-color: #353430;
     --logo-text: #FFC2E6;
     --cover: url(../images/cover-image-light.png);
+    --bk-color: #FFF1F7;
   }  
 
   .rec {

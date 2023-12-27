@@ -28,3 +28,7 @@
     --accent-color: #ff8dcb;
   }
 }
+
+.rec {
+  display: none;
+}

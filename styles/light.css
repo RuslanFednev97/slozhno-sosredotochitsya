@@ -9,7 +9,7 @@
     display: none;
   }
 
-  .title-decor {
+  .title-decor, .header_logo {
     --accent-color: #ff8dcb;
   }
 }
@@ -28,7 +28,7 @@
     display: none;
   }
 
-  .title-decor {
+  .title-decor, .header_logo {
     --accent-color: #ff8dcb;
   }
 }

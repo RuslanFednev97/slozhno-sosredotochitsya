@@ -9,7 +9,7 @@
     display: block;
   }
 
-  .title-decor {
+  .title-decor, .header_logo {
     --accent-color: #FF0070;
   }
 }

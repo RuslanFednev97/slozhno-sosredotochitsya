@@ -5,17 +5,14 @@
   --logo-text: #FFC2E6;
   --cover: url(../images/cover-image-light.png);
 
-  .title-decor {
-    --accent-color: #ff8dcb;
-  }
-
   .rec {
     display: none;
   }
 
-
+  .title-decor {
+    --accent-color: #ff8dcb;
+  }
 }
-
 
 
 @media (prefers-color-scheme: light) {
@@ -26,3 +23,12 @@
     --logo-text: #FFC2E6;
     --cover: url(../images/cover-image-light.png);
   }  
+
+  .rec {
+    display: none;
+  }
+
+  .title-decor {
+    --accent-color: #ff8dcb;
+  }
+}

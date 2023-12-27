@@ -156,10 +156,6 @@ h4.title-decor {
   outline: 1px solid var(--text);
 }
 
-.title-decor2 {
-  margin-block-end: 20px;
-}
-
 .container__section {
   display: flex;
   flex-direction: column;

@@ -32,7 +32,7 @@
     display: none;
   }
 
-  .title-decor, .header__logo, link {
+  .title-decor, .header__logo, .link {
     --accent-color: #ff8dcb;
   }
 }

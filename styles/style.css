@@ -144,7 +144,7 @@ h4.title-decor {
 }
 
 .link {
-  text-shadow: 1px 1px 0 #ff0070;
+  text-shadow: 1px 1px 0 var(--accent-color);
   text-decoration: none;
 }
 

@@ -11,7 +11,7 @@
     display: block;
   }
 
-  .title-decor, .header__logo {
+  .title-decor, .header__logo, .link{
     --accent-color: #FF0070;
   }
 }
